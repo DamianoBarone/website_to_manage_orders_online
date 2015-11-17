@@ -1,0 +1,467 @@
+body {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+	margin: 0;
+	padding: 0;
+	color:#7f7f7f; 
+	vertical-align: top;
+	background:#000;
+}
+tr th {
+background: transparent;
+	border: 0 none;
+	
+ margin-bottom:0px;
+	
+}
+ol, ul {
+	list-style: none;
+}
+.cancella
+{
+  top: 110px;
+  width:340px;
+  position:absolute;
+  left:20px;
+}
+.tabella1{
+border:3px solid #EEE;
+width: 710px;
+border-collapse: collapse;
+margin-bottom:10px;
+} 
+.tabella2{border:3px solid #EEE;
+width: 310px;
+color:#7f7f7f; 
+border-collapse: collapse;} 
+.rigaAlta
+{
+border-top:3px solid #EEE;
+}
+.rigadestra
+{
+border-right:3px solid #EEE;
+}
+.spostamento2
+{
+ right:30px;
+ position:absolute; 
+}
+.recensione
+{	
+ top:450px;
+ right:30px;
+	position:absolute;
+ }
+.spostamento1
+{
+ left:110px;
+ position:absolute; 
+}
+.spostamento3
+{
+width:125px;
+margin:0 auto;
+}
+.cellaprezzo
+{
+text-align:center; 
+vertical-align:middle;
+border:3px solid #EEE;
+height:30px;
+width:50px;
+}
+.cellatesto
+{vertical-align:middle;
+border:3px solid #EEE;
+width: 50px;
+padding: 3px 5px;
+}
+.cellatesto2
+{vertical-align:middle;
+border:3px solid #EEE;
+width: 10px;
+padding: 3px 5px;
+}
+.carrello
+{
+right:0px;
+width:250px;
+position:absolute;
+color:#c42e02;
+
+}
+.bg { 	
+	background:center 0 no-repeat;
+}
+a {
+	color:#7f7f7f;
+	outline:none;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration:none;
+}
+.col-1, .col-2, .column-1, .column-2 {
+	float:left; /* trasla l'elemento a sinistra, mi permette di mettere le foto affianco (le tre foto) col -2 per ora non serve
+*/}
+
+.linea 
+{
+text-decoration: underline;
+}
+.testo
+{
+color:black;
+font-size:20px;
+left:104px;
+top:50px;
+position:absolute;
+width:750px;
+}
+.col-1
+{width:310px;
+margin-right:5px;
+}
+
+.column-1 { /* box servizi*/
+	width:310px;
+	margin-right:25px;
+}
+.column-2 {		/*box storia*/
+	width:620px;
+}
+p {
+	margin-bottom:18px; /*sp	azio sotto*/
+}
+.p1 { /*spazio sotto usato per storiadel terr*/
+	margin-bottom:8px;	
+	}
+.nero
+{
+color:black;
+}
+.titolo
+{
+font-weight:bold;
+font-style:italic;
+}
+.p4
+{
+margin-bottom:0px;
+margin-top:18px;
+}
+.tp
+{
+top:5px;
+position:absolute;
+}
+.p3
+{
+margin-bottom:0px;
+}
+.p2 {
+	margin-bottom:15px; /*spazio sotto usato per il testo della storia*/
+}
+.prezzo{
+top:260px;
+left: 100px;
+text-align:center;
+position:absolute;
+
+}
+.alignright {
+	text-align:right;
+}
+.aligncenter {
+	text-align:center;
+}
+.it {
+	font-style:italic;
+}
+.color-1 {
+	color:#fff;
+}
+.color-2 {
+	color:#c42e02;
+}
+.img-border {  /* bordo intorno alle immagini*/
+	border:10px solid #fff;
+}
+
+.row-top { /* nero*/
+height:100px;
+width:1007px;
+	position:absolute;	
+	
+	background:#000;
+}
+/***** menu *****/
+.menu {
+	position:absolute;
+	right:10px;
+	width: 605px;
+	height: 58px;
+	top:20px;
+	padding:26px 10px 0 0;
+
+}
+.menu li {     /*box intorno a le voci */
+	float:left;
+	padding-left:40px;
+}
+.menu li a {
+	font-size:14px;  /*singola voce */
+	line-height:18px;
+	padding:0;
+	color:#fff;
+}
+.menu li a.active, .menu > li > a:hover {  /*il colore azzurro di selezionato */
+	color: #87CEFA  /*#c52e02;*/
+}
+.titol
+{
+position:absolute;
+width: 305px;
+height: 58px;	
+margin:25px;
+	
+}
+.since
+{font-size:18px;
+	font-weight:normal;	
+	color:#fff;
+	top:470Px;
+position: absolute;
+	right:95px;
+	height: 20px;
+}
+.immagine
+{
+	width: 640px;
+	height: 303px;
+	position: absolute;
+	left: 70px;
+	top:50px;	
+}
+.row-bot-bg {
+	      /* lo sfondo del mare*/
+		  width:1007px;
+		  position: absolute;
+		  top: 100px;
+		height:522px;
+		background:url(../images/mare.jpg) center top no-repeat;
+}
+.boxfoto{
+   width: 280px;
+	height: 250px;
+   margin: 20px 0;
+   text-align:center;
+   padding: 15px;
+   position: absolute;   
+}
+.riga{ 
+position: static;		
+height: 320px;
+}
+
+.tabella{ 
+position: absolute;	
+ width: 980px;
+height: 480px;
+}
+.colonna4
+{
+position: absolute;
+left: 540px;
+display:inline;
+}
+.cl4
+{
+top:150px;
+}
+.cerca
+{
+position:absolute;
+left:20px;
+}
+.colonna3{
+position: absolute;
+left: 640px;
+display:inline;
+}
+ .colonna2{
+ position: absolute;
+ left: 340px;
+}
+.descrizione
+{
+margin:20px;
+top:30px;
+width:987px;
+height:360px;
+}
+.content{
+	width: 1007px;
+	padding: 15px 0 50px;
+	background: #ABCDEF;
+	position: absolute;
+}
+.content1
+{
+top: 620px;
+height:420px;
+}
+
+.content2 {
+top:100px;
+height:1350px;
+	
+}
+.content3 {
+top:100px;
+height:460px;
+}
+
+.content4{
+overflow:scroll;
+top:100px;
+height:560px;
+}
+.content5
+{
+top:100px;
+height:560px;
+}
+.errore
+{
+font-style:italic;
+position:absolute;
+
+color:#FF0000;
+}
+.errore1
+{
+margin: 22px;
+font-size:18px;
+left:190px;
+}
+.errore2
+{
+margin: 22px;
+font-size:18px;
+left:790px;
+}
+.posizione
+{
+margin:20px;
+top:100px;
+height:560px;
+width:980px;
+}
+.spanCampo
+{
+position:static;
+margin: 5px;
+font-size:14px;
+left:640px;
+color:#FF0000;
+}
+.registrazione
+{
+position:absolute;	
+	font-size:18px;
+}
+.registrazioneaccount
+{
+
+height:560px;
+width:440px;
+}
+.registrazionepizza
+{
+color:#7f7f7f; 
+left:20px;
+top:200px;
+height:360px;
+width:440px;
+}
+.aggiuntapizza
+{position:absolute;
+ top:520px;
+ left:30px;
+ color:#FF0000;
+ height:30px;
+width:440px;
+}
+.login
+{ left:20px;
+
+position:absolute;
+	font-size:18px;
+height:200px;
+width:180px;
+}
+
+h3 {
+	font-size:24px;
+	line-height:2em;
+	color:#404040;
+	font-weight:normal;
+	letter-spacing:-1px;
+	margin-bottom:5px;
+}
+h5 {
+	margin-bottom:2px;
+}
+h6 {
+	color:#769e02;
+}
+.list-1 li {
+	line-height:18px;
+	padding:6px 0 6px 20px;
+	background:url(../images/marker-1.png) 0 12px no-repeat;
+}
+.list-1 a {
+	display:inline-block;
+	color:#7f7f7f;
+}
+.list-1 a:hover {
+	color:#d53a03;
+	text-decoration:underline;
+}
+.list-1 span {
+	display:block;
+	line-height:25px;
+	padding:8px 0 17px;
+}
+.list-1 strong {
+	display:block;
+}
+.footer {
+	width: 1007px;
+	height: 60px;
+	position: absolute;
+	padding: 23px 0 30px;
+	background:black;	
+	color: #fff;
+}
+.footer a {
+	color:#c42e02;
+}
+.footer span {
+	display:block;
+}
+.footer1{
+top: 1100px;
+}
+.footer2 {	
+	top: 1510px;
+}
+.footer3 {	
+	top: 590px;
+}
+
+.footer4 {
+	top: 730px;
+}
